@@ -48,6 +48,6 @@ footer {
       min-height: calc(100vh - 100px);
     }
     main {
-      text-align: left;
+      text-align: start;
     }
 }
