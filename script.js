@@ -17,3 +17,5 @@ document.getElementById("section").innerHTML = text[sectionIndex];
 let reference = ["1-8", "9-16", "17-24", "25-32", "33-40", "41-48", "49-56", "57-64", "65-72", "73-80", "81-88", "89-96", "97-104", "105-112", "113-120", "121-128", "129-136", "137-144", "145-152", "153-160", "161-168", "169-176"]
 
 document.getElementById("context").setAttribute("href", "https://www.biblegateway.com/passage/?search=Psalm+119%3A" + reference[sectionIndex] + "&version=KJV")
+
+document.getElementById("context").innerHTML = "Psalm 119:" + reference[sectionIndex] + " in context"
