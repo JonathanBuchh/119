@@ -42,4 +42,7 @@ footer {
     body {
       min-height: calc(100vh - 100px);
     }
+    main {
+      text-align: left;
+    }
 }
