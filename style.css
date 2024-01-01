@@ -4,6 +4,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   min-height: calc(100vh - 25px);
+  padding: 5px;
 }
 
 main {
@@ -11,7 +12,7 @@ main {
   text-align: justify;
   font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   max-width: 650px;
-  padding: 10px;
+  padding: 5px;
 }
 
 hr {
