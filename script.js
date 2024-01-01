@@ -2,7 +2,7 @@ let currentYear = new Date().getFullYear();
 let firstDate = new Date(currentYear, 0, 1);
 let today = new Date();
 let oneDay = 24 * 60 * 60 * 1000;
-let diffDays = Math.round(Math.abs((firstDate - today) / oneDay));
+let diffDays = Math.floor(Math.abs((firstDate - today) / oneDay));
 
 let sectionIndex = diffDays % 22;
 
