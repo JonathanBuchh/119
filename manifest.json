@@ -1,7 +1,7 @@
 {
   "name": "Psalm 119",
   "display": "standalone",
-  "background_color": "#81A0A0",
+  "theme_color": "#81A0A0",
   "icons": [
     {
       "src": "icon.png",
