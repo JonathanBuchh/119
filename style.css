@@ -34,10 +34,15 @@ footer {
   font-size: 80% !important;
 }
 
+#heart {
+  color: #81A0A0;
+}
+
 @media screen and (prefers-color-scheme: dark) {
   a {
     color: #fff;
   }
+
   hr {
     background: #fff;
   }
@@ -47,6 +52,7 @@ footer {
     body {
       min-height: calc(100vh - 100px);
     }
+
     main {
       text-align: start;
     }
