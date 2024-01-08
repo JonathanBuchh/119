@@ -18,4 +18,4 @@ let reference = ["1-8", "9-16", "17-24", "25-32", "33-40", "41-48", "49-56", "57
 
 document.getElementById("context").setAttribute("href", "https://www.biblegateway.com/passage/?search=Psalm+119%3A" + reference[sectionIndex] + "&version=KJV")
 
-document.getElementById("context").innerHTML = "Psalm 119:" + reference[sectionIndex] + " in context"
+document.getElementById("context").innerHTML = "Psalm 119:" + reference[sectionIndex]
