@@ -8,6 +8,11 @@
   <link rel="stylesheet" href="style.css">
   <link rel="manifest" href="manifest.json"/>
   <meta name="color-scheme" content="dark light">
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js');
+    }
+  </script>
 </head>
 <body>
   <main>
@@ -24,6 +29,6 @@
     <hr>
     <small>Made with <span id="heart">♥</span> by <a href="https://buchh.org" target="_blank">Jonathan Buchholz</a></small>
   </footer>
+  <script src="app.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
